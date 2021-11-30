@@ -125,6 +125,7 @@ class SubsController < ApplicationController
       redirect_to subs_path
     else
       render component: 'SubEdit', props: { sub: @sub }
+    end
   end 
 
   def destory 
